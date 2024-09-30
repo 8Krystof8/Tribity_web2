@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribity - Lekce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Přepínač tmavého režimu -->
+    <div class="theme-toggle">
+        <input type="checkbox" id="dark-mode-toggle" aria-label="Přepnout tmavý režim">
+        <label for="dark-mode-toggle"></label>
+    </div>
+
+    <header>
+        <nav class="navbar container">
+            <div class="logo">
+                <a href="index.html">Tribity</a>
+            </div>
+            <ul class="nav-links">
+                <!-- Aktualizované navigační odkazy -->
+                <li><a href="lessons.html">Lekce</a></li>
+                <li><a href="#features">Funkce</a></li>
+                <li><a href="#pricing">Ceník</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <a href="#" class="btn-login">Přihlásit se</a>
+                <a href="#" class="btn-signup">Registrace</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Výběr Programovacího Jazyka -->
+        <section class="languages-section">
+            <div class="container">
+                <h2>Vyberte si programovací jazyk</h2>
+                <div class="languages-grid">
+                    <div class="language-card">
+                        <div class="language-icon python-icon"></div>
+                        <h3>Python</h3>
+                        <a href="python-roadmap.html" class="btn-secondary">Pokračovat</a>
+                    </div>
+                    <div class="language-card">
+                        <div class="language-icon javascript-icon"></div>
+                        <h3>JavaScript</h3>
+                        <a href="#" class="btn-secondary">Pokračovat</a>
+                    </div>
+                    <div class="language-card">
+                        <div class="language-icon java-icon"></div>
+                        <h3>Java</h3>
+                        <a href="#" class="btn-secondary">Pokračovat</a>
+                    </div>
+                    <!-- Přidejte další jazyky podle potřeby -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Aktualizovaný Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>You can code, too.</p>
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Glossary</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Useful</h4>
+                    <ul>
+                        <li><a href="#">Press Kit</a></li>
+                        <li><a href="#">Imprint</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Follow us</h4>
+                    <div class="social-icons">
+                        <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
+                        <a href="#"><img src="icons/twitter.svg" alt="Twitter"></a>
+                        <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+                        <a href="#"><img src="icons/linkedin.svg" alt="LinkedIn"></a>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2023 Tribity. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+</body>
+</html>

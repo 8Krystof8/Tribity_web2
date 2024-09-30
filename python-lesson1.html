@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribity - Úvod do Pythonu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Přepínač tmavého režimu -->
+    <div class="theme-toggle">
+        <input type="checkbox" id="dark-mode-toggle" aria-label="Přepnout tmavý režim">
+        <label for="dark-mode-toggle"></label>
+    </div>
+
+    <!-- Odebraná navigace, ponecháno pouze logo -->
+    <header>
+        <nav class="navbar container">
+            <div class="logo">
+                <a href="index.html">Tribity</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Lekce jako série slidů -->
+        <section class="lesson-slides">
+            <div class="slide active">
+                <div class="slide-content">
+                    <h2>Úvod do Pythonu</h2>
+                    <p>V této lekci se naučíte základní syntaxi Pythonu a vytvoříte svůj první program.</p>
+                </div>
+                <div class="slide-navigation">
+                    <button class="next-btn">Další &rarr;</button>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+                <div class="slide-content">
+                    <h3>Co je Python?</h3>
+                    <p>Python je vysoce úrovňový, interpretovaný programovací jazyk s jednoduchou syntaxí.</p>
+                </div>
+                <div class="slide-navigation">
+                    <button class="prev-btn">&larr; Zpět</button>
+                    <button class="next-btn">Další &rarr;</button>
+                </div>
+            </div>
+            <!-- Slide 3 - Interaktivní úloha -->
+            <div class="slide">
+                <div class="slide-content">
+                    <h3>Vytvořte svůj první program</h3>
+                    <p>Vytvořte program, který vypíše "Ahoj světe" na obrazovku.</p>
+                    <textarea id="code-editor" rows="5"># Napište svůj kód zde</textarea>
+                    <button id="run-code" class="btn-primary">Spustit kód</button>
+                    <div id="output">
+                        <p><strong>Výstup:</strong></p>
+                        <pre id="code-output"></pre>
+                    </div>
+                </div>
+                <div class="slide-navigation">
+                    <button class="prev-btn">&larr; Zpět</button>
+                    <button class="next-btn">Další &rarr;</button>
+                </div>
+            </div>
+            <!-- Pokračujte s dalšími slidy -->
+        </section>
+    </main>
+
+    <!-- Footer odebrán -->
+
+    <script src="main.js" defer></script>
+    <script src="lesson.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribity - Naučte se programovat interaktivně</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Přepínač tmavého režimu -->
+    <div class="theme-toggle">
+        <input type="checkbox" id="dark-mode-toggle" aria-label="Přepnout tmavý režim">
+        <label for="dark-mode-toggle"></label>
+    </div>
+
+    <header class="header">
+        <nav class="navbar container">
+            <div class="logo">
+                <a href="index.html">Tribity</a>
+            </div>
+            <ul class="nav-links">
+                <!-- Odebráno 'Home' a 'Kontakt', přidán 'Pricing' -->
+                <li><a href="lessons.html">Lekce</a></li>
+                <li><a href="#features">Funkce</a></li>
+                <li><a href="#pricing">Ceník</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <a href="#" class="btn-login">Přihlásit se</a>
+                <a href="#" class="btn-signup">Registrace</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Sekce s barevným přechodem -->
+        <section class="hero-section">
+            <div class="container hero-content">
+                <h1>Naučte se programovat <span class="highlight">interaktivně</span></h1>
+                <p>Objevte radost z učení programování s Tribity. Ponořte se do světa kódování a začněte svou cestu ještě dnes.</p>
+                <a href="lessons.html" class="btn-primary">Začít nyní</a>
+            </div>
+            <!-- Kódová Ukázka -->
+            <div class="code-sample">
+                <div class="editor-header">
+                    <div class="editor-buttons">
+                        <span class="editor-btn red"></span>
+                        <span class="editor-btn yellow"></span>
+                        <span class="editor-btn green"></span>
+                    </div>
+                    <div class="editor-title">welcome.py</div>
+                </div>
+                <pre><code class="language-python">
+# Váš první program
+print("Vítejte na Tribity!")
+                </code></pre>
+            </div>
+        </section>
+
+        <!-- Další Sekce -->
+        <!-- ... -->
+
+    </main>
+
+    <!-- Aktualizovaný Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>You can code, too.</p>
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Glossary</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Useful</h4>
+                    <ul>
+                        <li><a href="#">Press Kit</a></li>
+                        <li><a href="#">Imprint</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Follow us</h4>
+                    <div class="social-icons">
+                        <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
+                        <a href="#"><img src="icons/twitter.svg" alt="Twitter"></a>
+                        <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+                        <a href="#"><img src="icons/linkedin.svg" alt="LinkedIn"></a>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2023 Tribity. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+</body>
+</html>
