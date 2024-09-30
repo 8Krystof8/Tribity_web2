@@ -177,7 +177,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 8rem 0;
-    background: linear-gradient(135deg, #4caf50 0%, #f44336 100%);
+    background: linear-gradient(135deg, #02051b 0%, #590c85 100%);
     text-align: center;
     color: var(--text-color);
 }
